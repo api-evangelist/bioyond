@@ -1,8 +1,29 @@
 aid: bioyond
-name: bioyond
-description: bioyond is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Bioyond Robotics
+description: >-
+  Bioyond Robotics (奔曜科技) is a life-sciences intelligent-automation company founded in 2021 and
+  headquartered in Shanghai's Zhangjiang Science City. It combines robotics, machine vision, and
+  artificial intelligence to build autonomous laboratory solutions for scientific research, drug
+  discovery, applied chemistry, synthetic biology, multiomics, and clinical diagnostics. Its product
+  line spans the LabGenius robot platform (liquid-handling and transport robots), the LabMate
+  automation platform (material/liquid handling, stackers, and intelligent scheduling), the LabMind
+  laboratory software platform for integrating external instruments and modules, and the BIOYOND
+  AutoSeq genetic-analysis system. Bioyond is backed by Qiming Venture Partners. As of this profile
+  the company exposes no public developer API, SDK, or developer portal — this record captures its
+  identity and domain-security posture only.
 url: https://raw.githubusercontent.com/api-evangelist/bioyond/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.bioyond.com/en/wp-content/uploads/2025/08/logo-192x192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,9 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Life Sciences
+- Laboratory Automation
+- Robotics
+- Artificial Intelligence
+- Drug Discovery
+- Clinical Diagnostics
+- Synthetic Biology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://bioyond.com
+  url: https://www.bioyond.com/en/
+- type: PrivacyPolicy
+  url: https://www.bioyond.com/en/privacy-policy
+- type: LinkedIn
+  url: https://www.linkedin.com/company/bioyond
+- type: YouTube
+  url: https://www.youtube.com/@BioyondRobotics_2021
+- type: DomainSecurity
+  url: security/bioyond-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
